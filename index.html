@@ -3,45 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Varun Vishal</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="pater/pater.css" />
+    <link rel="icon" href="images/vv1.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600%7CPoppins:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/fullpage.js"></script>
+
+    <script type="text/javascript">
+        //using document ready...
+        $(document).ready(function() {
+
+            //initialising fullpage.js in the jQuery way
+            $('#fullpage').fullpage({
+
+                navigation: true
+
+            });
+
+
+        });
+    </script>
+
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="background: black !important; height: 12%;-webkit-box-shadow: 0 8px 6px -6px #000;-moz-box-shadow: 0 8px 6px -6px #000;box-shadow: 0 8px 6px -6px #000;">
-        <a class="navbar-brand" href="#"><img src="img/vvlogo.png" width="70" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="wrapper">
-                    <div class="profile-frame img-fluid" align="center">
-                        <img src="img/profile-frame.png" alt="" style="font-size: 3.5rem;" width="85%">
+    <section id="heading">
+        <div id="home">
+            <nav id="header">
+                <div class="container">
+                    <div class="row" id="header">
+                        <div class="header__inner col col-12">
+                            <div class="logo">
+                                <a class="logo__link" href="#">
+                        Varun
+                      </a>
+                            </div>
+
+                            <div class="menu-overlay">
+                                <nav class="main-nav">
+                                    <div class="main-nav__box">
+
+                                        <div class="nav__icon-close">
+                                            <i class="ion ion-md-close"></i>
+                                        </div>
+
+                                        <div class="nav-grid">
+                                            <div class="nav-grid__item">
+                                                <h2 class="nav-grid__title">Menu</h2>
+                                                <br>
+                                                <div class="mobile-nav">
+                                                    <ul class="nav__list list-reset">
+                                                        <li class="nav__item">
+                                                            <a href="#home" class="nav__link" style="color: darkgray;">Home</a>
+                                                        </li>
+                                                        <li class="nav__item">
+                                                            <a href="#profile" class="nav__link">Profile</a>
+                                                        </li>
+                                                        <li class="nav__item">
+                                                            <a href="projects.html" class="nav__link">Projects</a>
+                                                        </li>
+                                                        <li class="nav__item">
+                                                            <a href="#projects" class="nav__link"><span>Resume</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="navigation">
+
+                                <div class="top-nav">
+                                    <ul class="nav__list list-reset">
+                                        <li class="nav__item">
+                                            <a href="#home" class="nav__link" style="color: darkgray;"><span>Home</span> </a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#profile" class="nav__link"><span>Profile</span></a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="projects.html" class="nav__link"><span>Projects</span></a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#projects" class="nav__link"><span>Resume</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="nav-buttons">
+                                    <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+            </nav>
+
+            <div id="head">
+                <div class="container">
+                    <div class="row">
+                        <figure align="center">
+                            <img src="images/profile.png" alt="" class="zoom w3-animate-opacity">
+                        </figure>
+                    </div>
+                    <div class="row">
+                        <h2>Varun Vishal</h2>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="caption">
+                            <span class="brand">I am the one who</span>
+                            <span id="demo"></span>
+                            <span class='type-cursor'>|</span>
+                        </div>
+                    </div>
+
+                    <br><br>
+                    <div class="row">
+                        <div class="social">
+                            <span class="linkedin"><a href="https://github.com/varunvishal10" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></span>
+                            <span class="linkedin"><a href="https://www.linkedin.com/in/varun-vishal" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></span>
+                            <span class="linkedin"><a href="https://www.behance.net/varunvishal" target="_blank" rel="noopener"><i class="fa fa-behance"></i></a></span>
+                            <span class="linkedin"><a href="https://www.facebook.com/varun.vishal.94" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></span>
+                            <span class="linkedin"><a href="https://www.twitter.com/vviz10" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a></span>
+                            <span>|</span>
+                            <span><i class="ion ion-ios-pin"></i> Kolkata</span>
+                        </div>
                     </div>
                 </div>
+
+            </div>
+            <br>
+            <div class="row">
+                <a href="#profile" class="scroll-down" address="true"></a>
+            </div>
+            </div>
+    </section>
+
+    <section id="profile">
+        <div class="container">
+            <div class="row">
+                2
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12" align="center">
-                <div class="profile-text">
-                    <h5>
-                        Hello, I am
-                    </h5><br>
-                    <h2>Varun Vishal</h2>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
+                </div>
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
                 </div>
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
+                </div>
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
+                </div>
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
+                </div>
+                <div class="col-lg-6 col-lg-sm-12">
+                    <img src="images/dp.jpeg" alt="" width="50%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+
+
+    </section>
+
+
+
 </body>
 
 </html>
